@@ -45,7 +45,10 @@ export default createGlobalStyle<{ theme: DefaultThemeProps }>`
         --ui-gutter-y-xl: 50px;
 
         --ui-padding-x: 20px;
-        --ui-padding-y: 20px; 
+        --ui-padding-y: 20px;
+
+        --ui-width-xl: 95vw;
+        --ui-width-sm: 100vw;
 
         --form-input-pholder-color: #8E8E8E;
         --form-input-border: solid 2px var(--form-input-border-color);
