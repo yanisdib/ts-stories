@@ -1,7 +1,4 @@
-import {
-    useEffect,
-    useState
-} from 'react';
+import { useEffect, useState } from 'react';
 
 
 type ReturnValue = {
@@ -19,7 +16,6 @@ export const useResizableDimensions = (ref: React.MutableRefObject<any>): Return
             height: ref.current.offsetHeight,
         });
     }
-
 
     useEffect(() => {
         updateDimensions();
